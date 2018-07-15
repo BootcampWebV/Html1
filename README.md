@@ -5,7 +5,7 @@
 ---
 
 
-##Curriculum Vitae en HTML
+## Curriculum Vitae en HTML
 
 Es responsivo con los dispositivos de Apple:
 
