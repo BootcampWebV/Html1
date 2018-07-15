@@ -1,0 +1,87 @@
+/* Banner */
+
+#banner {
+    background-attachment: fixed;
+    background-color: var(--color-texto);
+    background-image: url("../img/portada.png");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    z-index: 21;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-fondo);
+    position: relative;
+}
+
+#banner:after {
+    background-image: -webkit-linear-gradient(top, rgb(26, 131, 216), rgba(255, 255, 255, 0.75));
+    background-image: -webkit-linear-gradient(top, rgb(23, 124, 206), rgba(255, 255, 255, 0.75));
+    background-image: -webkit-linear-gradient(top, rgb(15, 111, 189),rgba(255, 255, 255, 0.75));
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+               
+            }
+
+
+    #banner .content {
+    display: inline-block;
+    margin-right: 1%;
+    max-width: 95%;
+    padding: 6em;
+    text-align: right;
+    vertical-align: middle;
+    z-index: 1;
+    padding: 14em 0em 14em;
+    top: 1rem;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#banner .content header {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#banner .content header h2 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+     font-weight: bold;
+}
+
+#banner .content header p {
+    margin: 0.5em 0 0 0;
+    top: 0;
+    color:var(--color-fondo);
+    font-weight: bold;
+}
+
+#banner :last-child {
+    margin-bottom: 0;
+}
+    
+#banner h2 {
+    color:var(--color-fondo);
+    font-size: 4em;
+    line-height: 1.25em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+ #banner p {
+    font-size: 1.5em;
+     margin-bottom: 1.75em;
+}
+       
